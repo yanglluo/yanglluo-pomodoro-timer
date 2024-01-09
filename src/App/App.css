@@ -1,0 +1,72 @@
+:root {
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+body {
+  background-color: #30384b;
+  color: #eee;
+  display: flex; /* Set the body as a flex container */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; /* Make sure the container covers the entire viewport height */
+}
+
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+button.with-text {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+  display: flex; /* Use flexbox for the button with text */
+  align-items: center; /* Center items vertically in the button */
+}
+
+button.with-text svg {
+  width: 36px;
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: px; /* Add a valid margin value here */
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+button.with-text {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+button.with-text svg {
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
